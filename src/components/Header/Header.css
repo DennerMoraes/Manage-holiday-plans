@@ -1,0 +1,29 @@
+.Header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.Header h1 {
+    color: #0D1168;
+}
+
+@media only screen and (max-width: 680px) {
+    .Header {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+    }
+
+    .Header div {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

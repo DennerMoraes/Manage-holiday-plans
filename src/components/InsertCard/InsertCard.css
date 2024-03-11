@@ -1,0 +1,32 @@
+.insert-card-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.insert-card-body h2 {
+    font-size: 30px;
+    color: #0D1168;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+.insert-card-body input {
+    background-color: #F0F3FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    color: #5A5B7C;
+}
+
+.insert-card-body input:focus {
+    outline: none;
+    color: #0D1168;
+}
