@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './CardList.css';
-import { format } from 'date-fns';
 import PinIcon from '../../assets/pin-icon';
 import CloseIcon from '../../assets/close-icon';
 import PencilIcon from '../../assets/pencil-icon';
@@ -74,7 +73,7 @@ const CardList = ({
                         </p>
                     </div>
                     <p className='date-card'>
-                        {format(new Date(item.date || ''), 'EEE, dd MMM')}
+                        {item.date}
                     </p>
                     <p className='sub-title-card'>
                         Participants
