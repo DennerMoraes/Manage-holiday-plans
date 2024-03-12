@@ -12,6 +12,8 @@ Find the API in this repository ```https://github.com/DennerMoraes/API-Manage-ho
 
 Start the API using the  ```node server.js``` 
 
+Start application ```npm start```
+
 ## Components
 
 ### EditModal
