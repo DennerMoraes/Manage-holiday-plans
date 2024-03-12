@@ -6,7 +6,7 @@ This is a card repository to organize your holidays, using your own API.
 
 ## Setup
 
-Run ```npm i && npm start``` to start development server
+Run ```npm install && npm start``` to start development server
 
 Find the API in this repository ```https://github.com/DennerMoraes/API-Manage-holiday-plans```
 
